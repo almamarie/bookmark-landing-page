@@ -20,6 +20,8 @@
 --color-grayish-blue: hsl(229, 8%, 60%);
 --color-dark-blue: hsl(229, 31%, 21%);
 
+
+--color-white: #fff;
 /* ## Typography */
 --default-font-size: 1.4rem;
 
@@ -52,9 +54,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
   font-size: var(--default-font-size);
+  color: var(--color-grayish-blue);
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: var(--color-dark-blue);
 }
 
 
+h1{
+
+
+    font-size: 5.2rem;
+    font-weight: 500;
+}
+
+
+/* .h2{} */
 
 
 
