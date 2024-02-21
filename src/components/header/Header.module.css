@@ -1,0 +1,37 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 4.8rem;
+}
+
+
+.nav a:link, .nav a:visited,  .nav a:active{
+    text-decoration: none;
+    color: var(--color-dark-blue);
+}
+
+.nav a:hover{
+    color: var(--color-primary-red);
+}
+
+
+.nav button, .nav button:active{
+    padding: 1rem 3.2rem;
+    border: .2rem solid var(--color-primary-red);
+    border-radius: var(--default-border-radius);
+
+    background-color: var(--color-primary-red);
+
+    cursor: pointer;
+}
+
+.nav button:hover{
+    background-color: transparent;
+}

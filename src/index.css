@@ -1,3 +1,11 @@
+/*
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
 
 :root{
 /* - Mobile: 375px
@@ -6,15 +14,17 @@
 /* Colors */
 
 --color-primary-blue: hsl(231, 69%, 60%);
---color-primary-Red: hsl(0, 94%, 66%);
+--color-primary-red: hsl(0, 94%, 66%);
 
 
---color-primary-grayish-blue: hsl(229, 8%, 60%);
---color-primary-dark-blue: hsl(229, 31%, 21%);
+--color-grayish-blue: hsl(229, 8%, 60%);
+--color-dark-blue: hsl(229, 31%, 21%);
 
 /* ## Typography */
+--default-font-size: 1.4rem;
 
---default-font-size: 18px
+/* Border radius */
+--default-border-radius: .5rem;
 }
 
 
@@ -41,6 +51,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
+  font-size: var(--default-font-size);
 }
 
 
