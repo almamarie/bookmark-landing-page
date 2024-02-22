@@ -46,6 +46,7 @@ html{
    margin: 0;
   padding: 0;
   list-style: none;
+  font-size: 1.8rem;
 }
 
 body {
@@ -59,18 +60,18 @@ body {
 
 h1,h2,h3,h4,h5,h6{
   color: var(--color-dark-blue);
+  font-weight: 500;
 }
 
 
 h1{
-
-
     font-size: 5.2rem;
-    font-weight: 500;
 }
 
 
-/* .h2{} */
+h2{
+  font-size: 3rem;
+}
 
 
 

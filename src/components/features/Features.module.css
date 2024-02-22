@@ -1,0 +1,52 @@
+.section {
+margin: 5rem 0 20rem 0;
+
+
+}
+
+.header{
+    width: 50rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header h2{
+    margin-bottom: 2rem;
+}
+
+.header p{
+    text-align: center;
+}
+
+.feature-nav{
+    width: 75rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0;
+
+    margin: 0 auto;
+    margin-top: 5rem;
+
+}
+
+.feature-nav--btn{
+    width: 100%;
+
+    padding: 2rem 0;
+
+    border: none;
+    border-bottom: .1rem solid var(--color-grayish-blue);
+
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+.feature-nav button:hover{
+    color: var(--color-primary-red);
+}
+
+.active-tab{
+    border-bottom: .4rem solid var(--color-primary-red);
+}
