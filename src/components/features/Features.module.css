@@ -50,3 +50,75 @@ margin: 5rem 0 20rem 0;
 .active-tab{
     border-bottom: .4rem solid var(--color-primary-red);
 }
+
+
+
+/* ================================================================================================================================= */
+
+.hero{
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20rem;
+    align-items: center;
+}
+
+.text *:not(:first-child){
+    margin-top: 2.4rem;
+}
+
+.text p{
+    font-size: 1.8rem;
+}
+
+.buttons button{
+    padding: 1.2rem 2.4rem;
+    margin-right: 2.4rem;
+    border-radius: var(--default-border-radius);
+
+    font-weight: 500;
+
+    box-shadow: 0 .3rem .6rem var(--color-grayish-blue);
+
+    cursor: pointer;
+}
+
+.btn--google{
+    background-color: var(--color-primary-blue);
+    color: var(--color-white);
+    border: .2rem solid var(--color-primary-blue);
+}
+
+.btn--google:hover{
+    background-color: transparent;
+    color: var(--color-primary-blue);
+}
+
+.btn--firefox{
+    background-color: hwb(229 95% 1%);
+    color: var(--color-dark-blue);
+    border: .2rem solid hwb(229 95% 1%);
+}
+
+.btn--firefox:hover{
+    border: .2rem solid var(--color-dark-blue);
+    background-color: transparent;
+}
+
+.illustrator{
+    position: relative;
+}
+
+.box{
+    width: 50rem;
+    height:35rem;
+    background-color: var(--color-primary-blue);
+
+    border-radius: 0 25rem 25rem 0;
+
+    position: absolute;
+    left: -15.6rem;
+    top: 8rem;
+    z-index: -1;
+}
+/* ================================================================================================================================== */
