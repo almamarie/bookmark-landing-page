@@ -1,0 +1,81 @@
+.section {
+    margin-top: 10rem;
+    padding: 5.6rem;
+    background-color: var(--color-primary-blue);
+
+}
+
+.wrapper{
+    width: 50rem;
+    margin: 0 auto;
+    
+    text-align: center;
+
+    color: var(--color-white);
+}
+
+.num{
+    display: block;
+    margin-bottom: 3.2rem;
+    text-transform: capitalize;
+    letter-spacing: 0.5rem;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.wrapper h2{
+    color: var(--color-white);
+    font-weight: bold;
+    margin-bottom: 3.2rem;
+}
+
+.input-btn-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-wrapper{
+    border-radius: var(--default-border-radius);
+}
+
+.input-wrapper input{
+    width: 30rem;
+    height: 5rem;
+
+    padding: 0 0 0 2rem;
+
+    border:none;
+    border-radius: var(--default-border-radius);
+}
+
+.input-wrapper input::placeholder{
+    font-size: 1.6rem;
+    color: hwb(228 85% 11%);
+}
+
+.error-msg{
+    text-align: left;
+    padding: .5rem 0 .5rem 1rem;
+    display: block;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.input-error{
+    background-color: var(--color-primary-red);
+    border: 1px solid var(--color-primary-red)
+}
+
+.input-btn-wrapper button{
+    height: 5rem;
+    background-color: var(--color-primary-red);
+    border-color: var(--color-primary-red);
+    box-shadow: none;
+}
+
+.input-btn-wrapper button:hover{
+    background-color: var(--color-white);
+    color: var(--color-primary-red);
+}

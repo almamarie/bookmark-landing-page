@@ -2,8 +2,15 @@ import React from "react";
 import styles from "./Button.module.css";
 
 const Button = (props) => {
+    const clickHandler = () => {
+      props.onClick && props.onClick();
+    };
   return (
-    <button type="text" className={`${styles.btn} ${props.className}`}>
+    <button
+      onClick={clickHandler}
+      type="text"
+      className={`${styles.btn} ${props.className}`}
+    >
       {props.children}
     </button>
   );
