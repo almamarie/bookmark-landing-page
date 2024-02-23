@@ -3,6 +3,7 @@ import styles from "./Features.module.css";
 import SimpleBookmarkingImg from "../../resources/images/illustration-features-tab-1.svg";
 import SpeedySearchingImg from "../../resources/images/illustration-features-tab-2.svg";
 import EasySharingImg from "../../resources/images/illustration-features-tab-3.svg";
+import Button from "../ui/Button";
 
 const Features = () => {
   const [currentTab, setCurrentTab] = useState("simple bookmarking");
@@ -25,6 +26,7 @@ const Features = () => {
       text: "Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.",
     },
   };
+  
   return (
     <section id="features" className={styles.section}>
       <header className={styles.header}>
@@ -81,9 +83,7 @@ const Features = () => {
             <h2>{data[currentTab].title}</h2>
             <p>{data[currentTab].text}</p>
             <div className={styles.buttons}>
-              <button type="text" className={styles["btn--google"]}>
-                More Info
-              </button>
+              <Button>More Info</Button>
             </div>
           </div>
         </div>
