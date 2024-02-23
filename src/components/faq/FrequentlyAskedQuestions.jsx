@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from "./FrequentlyAskedQuestions.module.css";
 import downArrowIcon from "../../resources/images/icon-arrow.svg";
 import { QUESTIONS } from "../../resources/questions";
+import Button from "../ui/Button";
 const FrequentlyAskedQuestions = () => {
   const [activeKeys, setActivekeys] = useState([]);
 
@@ -65,6 +66,9 @@ const FrequentlyAskedQuestions = () => {
           );
         })}
       </ul>
+      <div className={styles.btn}>
+        <Button>More Info</Button>
+      </div>
     </section>
   );
 };
