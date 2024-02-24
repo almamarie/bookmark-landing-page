@@ -75,3 +75,39 @@ h2{
 
 
 
+
+@media (max-width:81.25em) {
+  html{
+    font-size: 60%;
+  }
+}
+
+
+@media (max-width:75em) {
+  html{
+    font-size: 52%;
+  }
+}
+
+
+@media (max-width:64.3em) {
+  html{
+    font-size: 45%;
+  }
+
+  h1{
+    font-size: 4.8rem;
+  }
+}
+
+
+/* 880 px */
+@media (max-width:55em) {
+  h1{
+    font-size: 3.2rem;
+  }
+
+  h2{
+    font: 2.4rem;
+  }
+}
