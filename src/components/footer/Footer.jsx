@@ -67,26 +67,30 @@ const Footer = () => {
           </div>
         </div>
         <div className={styles.bottom}>
-          <p class="attribution">
-            Challenge by
-            <a
-              href="https://www.frontendmentor.io?ref=challenge"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {" "}
-              Frontend Mentor
-            </a>
-            . Coded by
-            <a
-              href="https://marieloumar-website.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {" "}
-              Louis Marie Atoluko Ayariga
-            </a>
-            .
+          <p>
+            <span>
+              Challenge by
+              <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                Frontend Mentor
+              </a>
+            </span>
+            <span>
+              . Coded by
+              <a
+                href="https://marieloumar-website.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                Louis Marie Atoluko Ayariga
+              </a>
+              .
+            </span>
           </p>
         </div>
       </div>

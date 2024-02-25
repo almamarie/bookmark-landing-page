@@ -1,9 +1,10 @@
 .section {
-margin: 20rem 0 15rem 0;
+    margin: 0 auto;
+    margin: 20rem 0rem 15rem 0rem;
 }
 
 .header{
-    width: 50rem;
+    max-width: 50rem;
     text-align: center;
     margin: 0 auto;
 }
@@ -65,4 +66,10 @@ margin: 20rem 0 15rem 0;
     margin-top: 1rem;
 }
 
-/* .card img{width: 5.6rem;} */
+/* 700 px */
+@media (max-width:43.75em) {
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+}

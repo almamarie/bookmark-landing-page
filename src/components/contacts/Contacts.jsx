@@ -40,7 +40,9 @@ const Contacts = () => {
               </span>
             )}
           </div>
-          <Button onClick={validateInput}>Contact Us</Button>
+          <Button onClick={validateInput} className={styles.button}>
+            Contact Us
+          </Button>
         </div>
       </div>
     </section>

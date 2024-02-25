@@ -29,7 +29,7 @@ const FrequentlyAskedQuestions = () => {
   return (
     <section className={styles.section}>
       <header className={styles.header}>
-        <h2>Grequently Asked Questions</h2>
+        <h2>Frequently Asked Questions</h2>
         <p>
           Here are some of our FAQs. If you have any other questions you’d like
           answered please feel free to email us.

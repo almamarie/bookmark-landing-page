@@ -6,7 +6,7 @@
 }
 
 .wrapper{
-    width: 50rem;
+    max-width: 50rem;
     margin: 0 auto;
     
     text-align: center;
@@ -69,7 +69,7 @@
 }
 
 .input-btn-wrapper button{
-    height: 5rem;
+    max-height: 5rem;
     background-color: var(--color-primary-red);
     border-color: var(--color-primary-red);
     box-shadow: none;
@@ -78,4 +78,38 @@
 .input-btn-wrapper button:hover{
     background-color: var(--color-white);
     color: var(--color-primary-red);
+}
+
+
+/* 550 px */
+@media (max-width:35em) {
+    .input-wrapper input{
+        width: 20rem;
+        height: 5rem;
+
+        padding: 0 0 0 2rem;
+
+        border:none;
+        border-radius: var(--default-border-radius);
+    }
+}
+
+
+/* 340 px */
+@media (max-width:21.25em) {
+     .section {
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+     }
+}
+
+/* 288 px */
+@media (max-width:18em) {
+     .input-wrapper input{
+        width: 5rem;
+        height: 5rem;
+
+        background-color: red;
+     }
 }
