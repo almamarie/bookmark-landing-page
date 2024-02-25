@@ -7,12 +7,16 @@ const Contacts = () => {
   const inputRef = useRef();
 
   const validateInput = () => {
-    // TODO: Research how to verify emails
-    console.log(inputRef.current.value);
-    setError(true);
-    // if () {
-    //     setError(true)
-    // }
+    const email = inputRef.current.value;
+    const emailRegex =
+      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+    if (!emailRegex.test(email)) {
+      setError(true);
+    } else {
+      inputRef.current.value = "";
+      setError(false);
+    }
   };
   return (
     <section className={styles.section}>
