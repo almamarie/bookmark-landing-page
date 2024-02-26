@@ -36,6 +36,14 @@
     color: var(--color-white);
 }
 
+.logo, .logo-circle, .logo-text{
+    fill: var(--color-white);
+}
+
+.logo-circle__content {
+    fill: var(--color-dark-blue);
+}
+
 .nav{
     display: flex;
     align-items: center;
